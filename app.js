@@ -7,7 +7,6 @@ new Vue({
   mounted () {
     var self = this
     setInterval(function () {
-      console.log(self.indexActive)
       self.indexActive += 1
       if (self.ImageCount == self.indexActive) {
         self.indexActive = 0
